@@ -1,0 +1,119 @@
+<!DOCTYPE html>  <!--HTML5:เป็นการเรียกใช้ เเท็ก-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body style="background-color: beige;">
+   <section class="section" id="header">
+        <h1 style="background-color: darkcyan;">This is a Header</h1>
+        <h2>this is a header</h2>
+        <h3>this is a header</h3>
+    </section>
+    <section class="section" id="parargrahp">
+        <p> this  <strong>TEST</strong></p>
+        <p> this  <mark>TEST</mark></p>
+        <p> <q>LYSANDER</p></p> 
+            <blockquote>
+                This is a blockqoute. This is a blockqoute.
+                This is a blockqoute.
+            </blockquote>
+            <bdo dir="ltl">This is a blockqoute.</bdo> <!--ใช้กลับ text , rtl ltl-->
+    </section>
+    <section class="section" id="comment">
+        <!--dsfsdfsdfsd-->
+    </section>
+    <section class="section" id="link">
+            <a href="https://www.google.com/">google</a><br> <!-- เเท็ก a ต้องมีลิงค์เสมอ-->
+            <a href="https://www.google.com/" target="_blank">google Targe blank</a>
+            <a href="https://www.google.com/" ><p>This is a google</p></a>
+    </section>
+    <section class="section" id="media">
+        <img src="Image/LOGO RedTeam ดำเทา.jpg" alt="RED JPG" width="400"><br>
+        <img src="Image/LOGO RedTeam1 ดำเทา.jpg" alt="RED JPG" width="400">
+        <!--<video href="https:...." width="200" autoplay></video>--> <!--เเสดงวีดีโอเล่นเลย-->
+        <audio src="audio/audio.mp3" autoplay></audio>
+    </section>
+    <section class="section" id="table">
+        <table>
+            <caption>MY TABLE</caption>
+            <tr>
+                <th>title</th>
+                <th>date</th>
+            </tr>
+            <tr>
+                <td>OAT</td>
+                <td>10/10/24</td>
+            </tr>
+            <tr>
+                <td>OOO</td>
+                <td>10/11/24</td>
+            </tr>
+            <tr>
+                <th>title</th>
+                <th>date</th>
+            </tr>
+        </table>
+    </section>
+    <section class="section" id="list">
+        <ol type="I">
+            <li>List A.</li>
+            <li>List B.</li>
+            <li>List C.</li>
+        </ol>
+        <ul style="list-style:square">
+            <li>List A.</li>
+            <li>List B.</li>
+            <li>List C.</li>
+        </ul>
+        <dl>
+            <dt>List C</dt>
+            <dd>มันคือลิสซี</dd>
+        </dl>
+    </section>
+    <section class="section" id="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wu1F-j0yFDE?si=doo8VuTDgY9Y9I_h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section class="section" id="script">
+        <p id = "tese-script" id="script"></p>
+        <script>
+            function runAlert(){
+                alert("this is a script")
+            }
+            document.getElementById('test-SC').innerHTML = "lysander"
+        </script>
+    </section>
+    <section class="section" id="code">
+        <pre>
+            <code>
+                function test(a,b){
+                    return a+b;
+                }
+            </code>
+        </pre>
+        <p><var>x</var>= 1+2</p>
+    </section>
+    <section class="section" id="From">
+        <form>
+            text : <input type="text"><br><br>
+            number : <input type="number"><br><br>
+            password : <input type="password"><br><br>
+            submit : <input type="submit"><br><br>
+           <textarea name="" cols="30" rows="10"></textarea><br><br>
+            <input type="datetime-local"><br><br>
+            <p> หมู่เลือด</p>
+           select : <select name="">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select><br><br>
+            Blue : <input type="radio" value="blue">
+            Red : <input type="radio" value="red">
+            Green : <input type="checkbox">
+            <input type="email" value="email" disabled><br><br> <!-- dis เป็นการล็อคปุ่ม เเต่ยังเห็นอยู่-->
+            <button onclick="" type="button">THE END</button>
+        </form>
+    </section>
+</body>
