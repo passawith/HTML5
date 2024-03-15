@@ -108,8 +108,15 @@ for(let x = 1;x<=20;x++){
     console.log("x - ", x);
 }
 
-let aaa = 20
-while(aaa <= 20){
+let aaa = 0;
+while(aaa <= 50){
     console.log("A equal = ", aaa);
-    aaa++;
+    aaa += 5;
 }
+// document ///
+var myDiv = document.getElementById("myDiv");
+myDiv.style.width = "200px"
+myDiv.style.height = "200px"
+myDiv.style.background = "red"
+myDiv.innerHTML = "<h1>Hello Word</h1>, "
+
